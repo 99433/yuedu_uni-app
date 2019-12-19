@@ -1,0 +1,57 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 20
+			}
+		}, {
+			"path": "pages/write/write",
+			"style": {}
+		}, {
+			"path": "pages/my/my",
+			"style": {}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "login"
+			}
+		}, {
+			"path": "pages/editArt/editArt",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/info/info",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "悦读",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#DE533A",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/read.png",
+			"selectedIconPath": "static/images/read-on.png",
+			"text": "文章"
+		}, {
+			"pagePath": "pages/write/write",
+			"iconPath": "static/images/write.png",
+			"selectedIconPath": "static/images/write-on.png",
+			"text": "写作"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/images/my.png",
+			"selectedIconPath": "static/images/my-on.png",
+			"text": "我的"
+		}]
+	}
+}
